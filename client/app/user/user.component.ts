@@ -9,9 +9,12 @@ export class UserComponent implements OnInit {
   userName:string = "";
   userAge:number = 0;
   userNameList:Array<Object> = [
-    {name:"홍길동", age:30},
-    {name:"김길동", age:10},
-    {name:"이길동", age:20} 
+    {userName:"홍길동",
+     userNo:6,
+    userId:"tt2",
+     userPwd:"1",
+    userAge:30
+  }
   ];
 
   userNum:number = 0;
